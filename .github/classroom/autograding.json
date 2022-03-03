@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Testing",
+      "setup": "",
+      "run": "javac src/MyJoin.java",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "RunMyJoin",
+      "setup": "javac -d . src/MyJoin.java",
+      "run": "java MyJoin",
+      "input": "5",
+      "output": "72",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
